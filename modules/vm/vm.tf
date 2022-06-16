@@ -5,6 +5,8 @@ resource "proxmox_vm_qemu" "this" {
   memory      = var.memory
   cores       = var.cores
   cpu         = "host"
+  qemu_os     = "win11"
+  bios        = "ovmf"
 
   network {
     bridge    = "vmbr0"
