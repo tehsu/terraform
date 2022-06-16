@@ -1,15 +1,15 @@
 variable "instance_name" {
-  type = string
+  type        = string
   description = "name of the instance that you want to deploy"
 }
 
 variable "target_node" {
- type = string
- description = "where do we deploy this?" 
+  type        = string
+  description = "where do we deploy this?"
 }
 
 variable "image_name" {
-  type = string
+  type        = string
   description = "what ISO to deploy?"
 }
 
