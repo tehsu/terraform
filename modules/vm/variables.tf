@@ -24,3 +24,7 @@ variable "memory" {
 variable "disk_size" {
   type = string
 }
+
+variable "os_type" {
+  type = string  
+}
