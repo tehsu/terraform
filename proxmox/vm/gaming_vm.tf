@@ -6,5 +6,6 @@ module "gaming_vm" {
   target_node   = "node2"
   memory        = "16384"
   cores         = "8"
-  disk_size     = "64G"
+  disk_size     = "40G"
+  os_type = "win11"
 }
